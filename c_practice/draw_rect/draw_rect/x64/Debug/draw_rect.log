@@ -1,0 +1,19 @@
+﻿生成启动时间为 2021/11/19 16:09:10。
+     1>项目“F:\code\C++和python进行文件处理\c_src\draw_rect\draw_rect\draw_rect.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Vs2015_install\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"x64\Debug\draw_rect.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Vs2015_install\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"x64\Debug\draw_rect.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt draw_rect.cpp
+         draw_rect.cpp
+       Link:
+         D:\Vs2015_install\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\code\C++和python进行文件处理\c_src\draw_rect\x64\Debug\draw_rect.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\build\x64\vc14\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_world450.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\code\C++和python进行文件处理\c_src\draw_rect\x64\Debug\draw_rect.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\code\C++和python进行文件处理\c_src\draw_rect\x64\Debug\draw_rect.lib" /MACHINE:X64 x64\Debug\draw_rect.obj
+         x64\Debug\stdafx.obj
+     1>draw_rect.obj : error LNK2019: 无法解析的外部符号 "public: void __cdecl cv::Mat::copyTo(class cv::debug_build_guard::_OutputArray const &)const " (?copyTo@Mat@cv@@QEBAXAEBV_OutputArray@debug_build_guard@2@@Z)，该符号在函数 main 中被引用
+     1>draw_rect.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::debug_build_guard::_InputArray const &)" (?imshow@cv@@YAXAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV_InputArray@debug_build_guard@1@@Z)，该符号在函数 main 中被引用
+     1>draw_rect.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::rectangle(class cv::debug_build_guard::_InputOutputArray const &,class cv::Rect_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@debug_build_guard@1@V?$Rect_@H@1@AEBV?$Scalar_@N@1@HHH@Z)，该符号在函数 "void __cdecl DrawRectangle(class cv::Mat &)" (?DrawRectangle@@YAXAEAVMat@cv@@@Z) 中被引用
+     1>F:\code\C++和python进行文件处理\c_src\draw_rect\x64\Debug\draw_rect.exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“F:\code\C++和python进行文件处理\c_src\draw_rect\draw_rect\draw_rect.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.86
