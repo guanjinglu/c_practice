@@ -1,0 +1,52 @@
+{
+    "version":"test_json v1.0",
+    "description":"this demo used to practice json analysis",
+    "test_number":78322,
+    "path_set":{
+        "load_path":"./data",
+        "save_path":"./result"
+    },
+    "camera_device":{
+        "name":"cam1",
+        "path":"/sys/dev/",
+        "FOV":[30,50],
+        "RES":[640,480],
+        "Intrinsic":{
+            "fx":50.2155,
+            "fy":45.1245,
+            "cx":0.55454,
+            "cy":0.55488
+        }
+    },
+    "T_Matrix":{
+        "t1":[1,2,3],
+        "t2":[4,5,6]
+    },
+    "other_info":{
+        "info_1":{
+            "info":"hello world",
+            "Matrix":[21,21,21,21]
+        },
+        "info_2":{
+            "info":"hello C++",
+            "Matrix":[22,22,22,22]
+        }
+    },
+    "location1":[23,23,2333],
+    "location2":[233,233,23333],
+    "test_choice":[
+        {
+            "name":"test1",
+            "enable":true
+        },
+        {
+            "name":"test2",
+            "enable":false
+        },
+        {
+            "name":"test1",
+            "enable":true
+        }
+    ],
+    "end_desc":"thank you"
+}
