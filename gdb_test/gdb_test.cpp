@@ -30,6 +30,7 @@ int main(int argc, const char * argv[])
     int result3;
     result3 = result1/0;
     printf("result3  = %d\t",result3);
+    ptintf("=============================");
 
     return 0;
 }
